@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" width="390" height="844">
+  <rect width="390" height="844" fill="#f6f8fc"/>
+  <rect x="20" y="60" width="350" height="724" rx="14" fill="#ffffff" stroke="#e3e8f0" stroke-width="1"/>
+  <text x="195" y="120" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#0f172a">Frequently Asked Questions</text>
+  <text x="195" y="150" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#55637a">Find quick answers to the questions that matter most.</text>
+  <rect x="40" y="190" width="310" height="100" rx="10" fill="#ffffff" stroke="#e3e8f0" stroke-width="1"/>
+  <text x="60" y="222" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">Can multiple answers remain open simultaneously?</text>
+  <text x="300" y="222" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#ea580c">−</text>
+  <rect x="40" y="320" width="310" height="70" rx="10" fill="#ffffff" stroke="#e3e8f0" stroke-width="1"/>
+  <text x="60" y="352" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2a3d">The accordion supports a single-open …</text>
+  <rect x="40" y="420" width="310" height="90" rx="10" fill="#ffffff" stroke="#e3e8f0" stroke-width="1"/>
+  <text x="60" y="452" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600" fill="#0f172a">Which technologies are used in this project?</text>
+  <text x="300" y="452" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#6b7787">+</text>
+  <text x="195" y="760" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#6b7787">Mobile · 390 × 844 · FAQ Accordion</text>
+</svg>

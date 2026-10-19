@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 1180" width="820" height="1180">
+  <rect width="820" height="1180" fill="#f6f8fc"/>
+  <rect x="60" y="100" width="700" height="980" rx="20" fill="#ffffff" stroke="#e3e8f0" stroke-width="1"/>
+  <text x="410" y="170" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" fill="#0f172a">Frequently Asked Questions</text>
+  <text x="410" y="210" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#55637a">Find quick answers to the questions that matter most.</text>
+  <rect x="90" y="260" width="640" height="110" rx="12" fill="#ffffff" stroke="#e3e8f0" stroke-width="1"/>
+  <text x="130" y="300" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" fill="#0f172a">What is web development?</text>
+  <rect x="130" y="320" width="560" height="50" fill="#ffffff" stroke="#e3e8f0" stroke-width="1"/>
+  <text x="150" y="354" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#1f2a3d">Web development is the process of building …</text>
+  <text x="660" y="300" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#ea580c">−</text>
+  <rect x="90" y="400" width="640" height="90" rx="12" fill="#ffffff" stroke="#e3e8f0" stroke-width="1"/>
+  <text x="130" y="440" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" fill="#0f172a">Does this project require a backend?</text>
+  <text x="660" y="440" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#6b7787">+</text>
+  <text x="410" y="1060" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#6b7787">Tablet · 820 × 1180 · FAQ Accordion</text>
+</svg>

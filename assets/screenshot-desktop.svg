@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1100" width="1440" height="1100">
+  <rect width="1440" height="1100" fill="#f6f8fc"/>
+  <rect x="340" y="140" width="760" height="860" rx="24" fill="#ffffff" stroke="#e3e8f0" stroke-width="1"/>
+  <text x="720" y="210" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="700" fill="#0f172a">Frequently Asked Questions</text>
+  <text x="720" y="260" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" fill="#55637a">Find quick answers to the questions that matter most.</text>
+  <rect x="390" y="320" width="660" height="130" rx="14" fill="#ffffff" stroke="#e3e8f0" stroke-width="1"/>
+  <text x="430" y="368" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#0f172a">What is web development?</text>
+  <rect x="430" y="388" width="580" height="60" fill="#ffffff" stroke="#e3e8f0" stroke-width="1"/>
+  <text x="450" y="424" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#1f2a3d">Web development is the process of building and …</text>
+  <text x="1000" y="368" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#ea580c">−</text>
+  <rect x="390" y="480" width="660" height="100" rx="14" fill="#ffffff" stroke="#e3e8f0" stroke-width="1"/>
+  <text x="430" y="528" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#0f172a">What is the difference between …?</text>
+  <text x="1000" y="528" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#6b7787">+</text>
+  <text x="720" y="940" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#6b7787">Desktop · 1440 × 1100 · FAQ Accordion</text>
+</svg>

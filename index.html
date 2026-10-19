@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Responsive FAQ Accordion — clean, accessible help centre built with HTML5, CSS3 and vanilla JavaScript. Veda Technology Web Development Internship Task 10." />
+  <title>FAQ Accordion | Veda Technology Internship Task 10</title>
+  <meta name="author" content="Abhishek Jadhav" />
+  <meta name="theme-color" content="#0f172a" />
+  <!-- Relative paths: works offline and on GitHub Pages -->
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#faq">Skip to FAQ section</a>
+
+  <div class="page">
+    <header class="page__header">
+      <p class="eyebrow">Help Center</p>
+      <h1 id="faqHeading">Frequently Asked Questions</h1>
+      <p class="subtitle">
+        Find quick answers to the questions that matter most.
+      </p>
+    </header>
+
+    <main>
+      <!-- ============ FAQ Accordion ============ -->
+      <section class="faq-section" id="faq" aria-labelledby="faqHeading">
+        <dl class="facts">
+          <div class="facts__item">
+            <dt>Questions</dt>
+            <dd id="faqCount">0</dd>
+          </div>
+          <div class="facts__item">
+            <dt>Mode</dt>
+            <dd>Single-open</dd>
+          </div>
+          <div class="facts__item">
+            <dt>Source</dt>
+            <dd>Browser</dd>
+          </div>
+        </dl>
+
+        <ul class="faq__list" id="faqList">
+          <!-- FAQ items are rendered here by script.js so markup and data stay separate. -->
+          <noscript>
+            <li class="faq__item faq__item--noscript">
+              <p>This FAQ accordion is built with JavaScript. Please enable JavaScript to view the questions and answers.</p>
+            </li>
+          </noscript>
+        </ul>
+      </section>
+
+      <!-- ============ Still need help? ============ -->
+      <section class="tips" aria-labelledby="tipsHeading">
+        <h2 id="tipsHeading">Still need help?</h2>
+        <div class="tips__row">
+          <p class="tips__text">Can't find what you're looking for? Reach out to our support team.</p>
+          <a href="mailto:support@vedatechnology.example" class="tips__btn">Contact support</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page__footer">
+      <p>
+        Veda Technology &bull; 45-Day Web Development Internship &bull;
+        Task 10: FAQ Accordion &bull; Built by Abhishek Jadhav
+      </p>
+    </footer>
+  </div>
+
+  <script src="./script.js" defer></script>
+</body>
+</html>

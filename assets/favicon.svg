@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="FAQ Accordion favicon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <!-- subtle inner highlight -->
+  <rect x="2" y="2" width="60" height="30" rx="12" fill="#ffffff" opacity="0.08"/>
+  <text x="32" y="46" text-anchor="middle"
+        font-family="Segoe UI, Roboto, Arial, sans-serif"
+        font-size="44" font-weight="700" fill="#ffffff">?</text>
+</svg>
