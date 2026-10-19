@@ -22,9 +22,6 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&color=1E293B&center=true&vCenter=true&width=660&lines=Click+a+question+%F0%9F%93%96;Answer+expands+%E2%86%93+%E2%86%91;One+open+at+a+time+%E2%80%A2+No+frameworks+%E2%80%A2+Just+HTML%2C+CSS+and+JS" alt="Greeting typing animation" />
 </div>
 
-FAQ Accordion of **Abhishek Jadhav** — Web Developer & first-year BCA student at VIIT, Baramati. Built with **HTML5 + CSS3 + Vanilla JavaScript**: no frameworks, no libraries, no build step, and no backend. Click a question to expand its answer, click again to collapse — smooth animations throughout.
-
-> **Internship attribution:** 45-day Web Development Internship at **Veda Technology** — Task 10: FAQ Accordion.
 
 <details>
 <summary><b>📖 Table of Contents (click to expand)</b></summary>
@@ -276,77 +273,6 @@ node --check script.js
 **Mobile — tap-friendly questions**
 
 ![FAQ Accordion mobile view](./assets/screenshot-mobile.svg)
-
----
-
-## 🧪 Testing Checklist
-
-**Real browser:**
-
-- [x] Page loads from `file://`; `style.css` applies and `script.js` executes; **no console errors**.
-- [x] 10 FAQ items render, each a native `<button type="button">` wrapping a question + panel.
-- [x] Every question has `aria-controls` + `aria-expanded="false"`; every panel has a unique ID.
-- [x] Clicking a question expands its answer; clicking again collapses it.
-- [x] Opening a second question closes the first (single-open mode).
-- [x] `aria-expanded` flips to `"true"` on open and `"false"` on close.
-- [x] Long answers are never clipped — `max-height` measured from `scrollHeight`.
-- [x] `+` icon rotates to `−` on open; active border/shadow applied.
-- [x] Visible `:focus-visible` ring on every button; keyboard `Tab`/`Enter`/`Space` work.
-- [x] Layout has no horizontal scrolling at ~320 / 375 / 768 / 1024 / desktop widths.
-- [x] `prefers-reduced-motion: reduce` collapses animation; accordion still opens/closes.
-- [x] Works fully offline — no network requests at all.
-- [x] `node --check script.js` passes.
-- [x] All linked local files exist; all paths relative.
-
-**Static / logic (Node 24):**
-
-- [x] Doctype, `lang="en"`, UTF-8, viewport meta, one `<h1>`, meta description.
-- [x] Every `<button>` declares `type="button"`; no inline `on*` handlers; no inline `<script>`.
-- [x] No `eval()`, no `new Function()`, no `innerHTML`, no `document.write`; strict mode + IIFE.
-- [x] All `getElementById()` targets exist in HTML.
-- [x] CSS custom properties, transitions, media queries, `prefers-reduced-motion`, `:focus-visible`.
-- [x] Dataset: 10 items, all questions + answers present, no duplicates.
-- [x] FAQ counter reads `10` and matches `FAQS.length`.
-
----
-
-## 🌐 Deployment
-
-**GitHub Pages:**
-
-```powershell
-Set-Location "<path-to>\internship-task-10"
-git init -b main
-git add index.html style.css script.js README.md Veda_Technology_Task_10_Project_Report.md assets
-git commit -m "Task 10: FAQ Accordion (HTML + CSS + JS)"
-git remote add origin <your-repository-url>
-git push -u origin main
-```
-
-Then GitHub → **Settings → Pages → Deploy from a branch → `main` / root** → GitHub shows your live URL.
-
-> Keep `index.html`, `style.css`, `script.js`, and `assets/` together with relative links so Pages resolves them correctly. The repository URL above is a placeholder — replace it with your real repo.
-> **Nothing has been committed or pushed yet, and no repository has been created**; the commands are provided for the submission step only.
-
----
-
-## ⚠️ Limitations
-
-- **Single-open by default** — only one answer open at a time. Set `ALLOW_MULTIPLE_OPEN = true` in `script.js` to allow many open.
-- **No search or filtering** — out of scope for Task 10; the accordion stays minimal on purpose.
-- **No data is stored or transmitted** — entirely client-side, no backend.
-- **Animations use `max-height`** with a generous upper bound (`2000px`); answers taller than that would clip (none of the 10 answers approach this).
-
----
-
-## 🔍 Accuracy Notes
-
-- Every test result above comes from checks executed against these files — no invented numbers.
-- Ten FAQ items match the required list exactly; every question has its specified answer.
-- ARIA attributes (`aria-expanded`, `aria-controls`, unique IDs) are present and correct in markup.
-- Alt/decorative icons are `aria-hidden="true"` so screen readers are not diluted.
-- Skills are presented as *learning/using* at internship level.
-- The app makes no network requests; README badges and typing images are documentation-only.
 
 ---
 
